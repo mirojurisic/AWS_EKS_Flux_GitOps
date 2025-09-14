@@ -3,6 +3,8 @@ kind: ClusterConfig
 metadata:
   name: fluxDemo
   region: eu-central-1
+  version: 1.33
+
 iam:
   withOIDC: true
   serviceAccounts:
