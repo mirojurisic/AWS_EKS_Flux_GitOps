@@ -1,7 +1,8 @@
-###################### EKS Create Cluster ##########################################################
+0. EKS Create Cluster 
+```
 eksctl create cluster -f cluster.yaml
 aws eks update-kubeconfig --name <cluster name>
-####################################################################################################
+```
 
 1. Create Namespace
 ```
