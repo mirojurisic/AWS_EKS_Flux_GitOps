@@ -5,6 +5,7 @@ metadata:
   namespace: flask-helm-ns
 spec:
   interval: 5m
+  targetNamespace: flask-helm-ns
   chart:
     spec:
       chart: ../helm-charts/flask-helm-example    # relative path to your chart
