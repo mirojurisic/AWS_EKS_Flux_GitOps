@@ -22,7 +22,7 @@ flux bootstrap github \
   --owner="mirojurisic" \
   --repository=AWS_EKS_Flux_GitOps \
   --branch=main \
-  --path=".\apps" \
+  --path="./apps" \
   --personal
 ```
 5. Create Flux Custom Resources
